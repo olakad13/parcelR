@@ -17,12 +17,18 @@
                 <img src="images/logo.svg" alt="" class="logo-img">
                 Parcel Royale
             </a>
-    
-            <nav class="nav">
+            <button id="menu-btn" class="hamburger-menu">
+                <img src="images/menu_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+            </button>
+            <nav id="navBar" class="nav">
                 <a href="#about" class="navlink">About</a>
                 <a href="#contact" class="navlink">Contact</a>
                 <a href="" class="navlink">Services</a>
                 <a href="" class="navlink">Founders</a>
+
+                <button id="close-btn" class="close-btn">
+                    <img src="images/close_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                </button>
             </nav>
         </div>
     </header>
@@ -83,7 +89,7 @@
                                 <p>Lorem Ipsum is simply dummy text of the printing andtypesetting industry.</p>
                             </div>
                         </div>
-                        <div class="about-us--text-inner-group-item">
+                        <div id="about-us-text" class="about-us--text-inner-group-item">
                             <img src="images/light.svg" alt="">
                             <div>
                                 <h4>Lorem Ipsum</h4>
@@ -136,13 +142,13 @@
     <!-- Footer section structure -->
     <footer class="footer">
         <div class="wrapper">
-            <div class="footer-section">
+            <div class="footer-group">
                 <h4 class="footer-header">Information</h4>
                 <a href="" class="footer-link">FAQ</a>
                 <a href="" class="footer-link">Terms & Conditions</a>
                 <a href="" class="footer-link">Privacy Policy</a>
             </div>
-            <div class="footer-section">
+            <div class="footer-group">
                 <h4 class="footer-header">Product & Service</h4>
                 <a href="" class="footer-link">Shipment</a>
                 <a href="" class="footer-link">Cargo</a>
@@ -151,7 +157,7 @@
                 <a href="" class="footer-link">Best</a>
                 <a href="" class="footer-link"></a>
             </div>
-            <div class="footer-section">
+            <div class="footer-group">
                 <h4 class="footer-header">Info Contact</h4>
                 <p class="address">Jl. Ir. H. Juanda 3 No. 17-19, 
                     RT.008/RW.002, Kel. Kebon 
@@ -160,7 +166,7 @@
                 </p>
                 <a href="mailto:customer.care@zendit.com">customer.care@zendit.com</a>
             </div>
-            <div class="footer-section no-gap">
+            <div class="footer-group no-gap">
                 <h4 class="footer-header">Download App</h4>
                 <div class="footer-img-con">
                     <a href="" class="footer-link"> <img src="images/image 12.png" alt=""></a>
@@ -170,6 +176,8 @@
         </div>
     </footer>
     <!-- End of footer section structure -->
+
+    <script src="Js/nav.js"></script>
 
 </body>
 </html>
