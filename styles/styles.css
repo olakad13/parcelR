@@ -12,7 +12,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 html {
@@ -160,7 +159,6 @@ body {
 
 .hero-img-con {
   width: 280px;
-  height: 400px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -181,14 +179,12 @@ body {
   color: #261134;
   font-size: 49px;
   font-weight: 800;
-  line-height: 120%;
 }
 
 .hero-text--para {
   color: #4D4D4D;
   font-size: 20px;
   font-weight: 400;
-  line-height: 120%;
 }
 
 .contact-us-btn {
@@ -460,7 +456,7 @@ body {
   width: 100%;
 }
 
-.out-team {
+.our-team {
   display: inline-block;
   align-self: flex-start;
   margin-top: 41px;
@@ -473,7 +469,7 @@ body {
   text-decoration: none;
   color: white;
 }
-.out-team:hover {
+.our-team:hover {
   background-color: purple;
 }
 
@@ -502,7 +498,7 @@ body {
   .about-us--text > p {
     font-size: 16px;
   }
-  .about-us--text .out-team {
+  .about-us--text .our-team {
     padding: 0.5rem 1rem;
   }
 }
