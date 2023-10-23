@@ -22,7 +22,6 @@ body {
   background: white;
   font-family: var(--poppins);
   overflow-x: hidden;
-  z-index: 1;
 }
 
 .wrapper {
@@ -221,7 +220,7 @@ body {
   bottom: 8.5rem;
 }
 
-.grp-14, .grp-14, .grp-16, .grp-18, .grp-rect, .pink-element {
+.grp-14, .grp-14, .grp-16, .grp-18, .grp-rect {
   position: absolute;
   z-index: 5;
 }
