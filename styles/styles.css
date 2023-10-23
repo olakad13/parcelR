@@ -249,15 +249,6 @@ body {
   bottom: 2rem;
 }
 
-.pink-element {
-  height: 184px;
-  width: 868.641px;
-  background: rgba(253, 62, 152, 0.2);
-  bottom: -2rem;
-  left: 3.1rem;
-  z-index: 0;
-}
-
 .tracker-section {
   border-radius: 20px;
   background: #FFF;
@@ -390,6 +381,9 @@ body {
   .cyan, .blue {
     height: 100px;
     width: 100px;
+  }
+  .hero-img-con {
+    width: 200px;
   }
 }
 .about-us .wrapper {
