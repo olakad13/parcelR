@@ -22,6 +22,7 @@ body {
   background: white;
   font-family: var(--poppins);
   overflow-x: hidden;
+  z-index: 1;
 }
 
 .wrapper {
